@@ -1,0 +1,25 @@
+
+/* Write a code which gets a tempertuare parameter in Centigrade and shows that in Fahrenheit*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Session3_Ex7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter the value of temprature parameter in Centigrade:");
+            float tempC = float.Parse(Console.ReadLine());
+            float tempF = tempC * 9 / 5 + 32;
+            Console.WriteLine("The value of temprature parameter in Fahrenheit is:\t" + tempF);
+
+            Console.ReadKey();
+
+        }
+    }
+}
